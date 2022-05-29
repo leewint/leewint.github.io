@@ -25,7 +25,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: true
-        start_date: 2022-06-01
+        start_date: 2022-05-29
     # My Popular Repositories
     side_bar_repo:
         enabled: false
@@ -54,7 +54,7 @@ highlight_theme: github
 author: 猿恋
 organization:
 organization_url:
-github_username: apelove
+github_username: leewint
 location: Nanjing, China
 email: apelove@foxmail.com
 
@@ -78,9 +78,9 @@ navs:
 #     href: /open-source/
 #     label: 开源
 
-#  -
-#    href: /wiki/
-#    label: 维基
+ -
+   href: /wiki/
+   label: 维基
 
   -
     href: /links/
