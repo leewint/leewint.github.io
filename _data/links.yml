@@ -15,14 +15,14 @@
   src: life
 
 
-  - name: 优映文化（代表作《毛骗》，网剧的鼻祖）
+- name: 优映文化（代表作《毛骗》，网剧的鼻祖）
   url: https://weibo.com/youying2014/
   src: others
 
- - name: 无码科技（一家做医疗产品的公司，产品小而美）
+- name: 无码科技（一家做医疗产品的公司，产品小而美）
   url: https://nocode.com/
   src: others
 
-  - name: 红盟安全（创始人为中国红客联盟创始人:lion）
+- name: 红盟安全（创始人为中国红客联盟创始人:lion）
   url: http://cnhonker.com/
   src: others
