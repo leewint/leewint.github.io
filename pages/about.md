@@ -10,7 +10,7 @@ permalink: /about/
 
 ## Introduction
 
-<img src="{{ assets_base_url }}/assets/images/zwjs.jpg"/>
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/zwjs.jpg"/>
 贪财好色，做个俗人。
 
 ## Find Me
