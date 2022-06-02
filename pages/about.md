@@ -10,7 +10,8 @@ permalink: /about/
 
 ## Introduction
 
-Read-Think-Write-Code
+<img src="{{ assets_base_url }}/assets/images/zwjs.jpg"/>
+贪财好色，做个俗人。
 
 ## Find Me
 
@@ -37,3 +38,7 @@ Read-Think-Write-Code
 {% endfor %}
 </div>
 {% endfor %}
+
+## Hobby
+
+Run-Code-Read-Invest
