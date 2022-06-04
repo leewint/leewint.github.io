@@ -13,6 +13,10 @@ permalink: /about/
 <img style="height:300px;width:300px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/zwjs.jpg"/><br/>
 贪财好色，做个俗人。
 
+## Hobby
+
+Run-Code-Read-Invest
+
 ## Find Me
 
 <ul>
@@ -38,7 +42,3 @@ permalink: /about/
 {% endfor %}
 </div>
 {% endfor %}
-
-## Hobby
-
-Run-Code-Read-Invest
