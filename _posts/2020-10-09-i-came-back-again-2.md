@@ -30,7 +30,7 @@ keywords: 生活, 我又回来了, 南京
 
 飞机昨晚看了[我又回来了（上）](https://mp.weixin.qq.com/s?__biz=Mzg4MzExMTczNQ==&mid=2247484123&idx=1&sn=9cb0a5b22eda216a019d46d707b3583d&chksm=cf4d2083f83aa995fc65d8530a725583b3b10c62a0720163ebf674bac411742c1d3cee11a7d0&scene=21#wechat_redirect)这篇文章，深夜发文感慨，详情见如下视频。
 
-<video src="https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206041714864-feijilumao.mp4" controls="controls" width="730" height="300">您的浏览器不支持播放该视频！</video>
+<video src="https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206041714864-feijilumao.mp4" controls="controls" width="730" height="400">您的浏览器不支持播放该视频！</video>
 「飞机一人独自在沪，望穿秋水在线撸猫」
 
 到了南京，就在樊姐那玩了两天就回家了。回家之后还是在专升本和投靠振哥他们之间徘徊，我还是一边继续复习C语言，一边看看南京有没有像样的工作。之后专升本的政策下来了，发现还要多考两门英语和高数，还是纠结了好几天，最后还是放弃了笔试，那就面试吧，过了就上，没过继续工作。这一想，反正就面试了，我就不准备复习了，到时候直接去面试就行了，然后就打算去南京找工作，面试的时候请个假，没考上就继续工作，考上了就离职。
@@ -57,7 +57,7 @@ keywords: 生活, 我又回来了, 南京
 
 不仅工作日如此，周末还要天天发消息，天天群发，以至于我离职后，晚上脑子一直转的都是群发二字，想着马上要群发了，发早安，发晚安。
 
-![](https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206041716765-yewufanmang.gif)
+![](https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206041716765-yewufanmang.gif#pic_center = 730x730)
 
 我最高峰的时候拿了7部手机，早上群发消息的时候都忙不过来。
 
