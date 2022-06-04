@@ -3,7 +3,7 @@ layout: post
 title: 租房的那些事
 categories: [生活]
 description: 一年的租房经验提前告诉你该如何避坑！
-keywords: 租房, 生活, 南京
+keywords: 租房, 生活, 上海
 ---
 
 > 一年的租房经验提前告诉你该如何避坑！
