@@ -57,7 +57,8 @@ keywords: 生活, 我又回来了, 南京
 
 不仅工作日如此，周末还要天天发消息，天天群发，以至于我离职后，晚上脑子一直转的都是群发二字，想着马上要群发了，发早安，发晚安。
 
-![](https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206041716765-yewufanmang.gif#pic_center = 730x730)
+<img src="https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206041716765-yewufanmang.gif" alt="业务繁忙" height="730" width="730">
+![](https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206041716765-yewufanmang.gif)
 
 我最高峰的时候拿了7部手机，早上群发消息的时候都忙不过来。
 
