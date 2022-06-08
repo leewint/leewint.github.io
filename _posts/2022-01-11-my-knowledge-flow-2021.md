@@ -123,6 +123,6 @@ flomo是一款很轻的软件，现在 flomo 已经是我碎片记录的重要�
 
 现在输出主要是通过公众号发文。
 
-我是在Notion上写作，结合语雀的图床，最后通过墨滴（`[www.mdnice.com](http://www.mdnice.com/)`）排版，很舒服，很爽。
+我是在Notion上写作，结合语雀的图床，最后通过墨滴（[www.mdnice.com](http://www.mdnice.com/)）排版，很舒服，很爽。
 
 最后呈现的就是你现在看到的这个样子。
