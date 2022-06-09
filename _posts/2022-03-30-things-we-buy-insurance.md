@@ -348,7 +348,7 @@ Excel 文件是通过阿里云盘分享的，没有用百度网盘。
 
 具体学习这三个期限，可以看这一篇。
 
-[关哥教你看条款 | 三个重要的时间概念](https://mp.weixin.qq.com/s/587ZJwb4PrBUxqYh3czKhA)
+[关哥教你看条款 - 三个重要的时间概念](https://mp.weixin.qq.com/s/587ZJwb4PrBUxqYh3czKhA)
 
 **Q3：**重疾险还没有交完，发生理赔后还需要继续交吗？
 
