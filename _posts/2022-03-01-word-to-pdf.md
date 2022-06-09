@@ -10,7 +10,7 @@ keywords: 学习, 技术, 编程, 代码
 
 ![](https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206092304310-code.jpg)
 
-题图 | Pixabay@eignatik17
+题图 - Pixabay@eignatik17
 
 这是我的第一篇技术文。
 
