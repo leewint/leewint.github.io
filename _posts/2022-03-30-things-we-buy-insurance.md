@@ -8,9 +8,9 @@ keywords: 生活, 学习, 保险, 理财
 
 > 希望大家都配置好，但永远也用不上~
 
-![](https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206092341412-titu.jpg)
+![](https://gcore.jsdelivr.net/gh/leewint/Images/blog/202206092341412-titu.jpg "题图 - 微博@有知有行")
 
-题图 - 微博@有知有行
+<center>题图 - 微博@有知有行</center>
 
 实在找不到好的题图了，只好贡献自己的手机壁纸了。
 
