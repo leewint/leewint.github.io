@@ -11,12 +11,12 @@ permalink: /wiki/
 
 > 记多少命令和快捷键会让脑袋爆炸呢？
 
-### Notion Share
+#### Notion Share
 
-[每年读完](https://leewint.notion.site/22cb813e41d44738bc827c147b44691f)
-[读过的书（豆瓣自动备份）](https://leewint.notion.site/becb541367ad401282e3ce0e8228d674?v=2c9c24609dbc41df9f97d5a476b002d8)
-[面试话术](https://leewint.notion.site/22d60c1fd61f485aa0f48c86254d5123)
-[我的人生信念](https://leewint.notion.site/fa424dbb2375475e8cb36922b8139c5d)
+* [每年读完](https://leewint.notion.site/22cb813e41d44738bc827c147b44691f)
+* [读过的书（豆瓣自动备份）](https://leewint.notion.site/becb541367ad401282e3ce0e8228d674?v=2c9c24609dbc41df9f97d5a476b002d8)
+* [面试话术](https://leewint.notion.site/22d60c1fd61f485aa0f48c86254d5123)
+* [我的人生信念](https://leewint.notion.site/fa424dbb2375475e8cb36922b8139c5d)
 
 {% case site.components.wiki.view %}
 
