@@ -156,7 +156,8 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    # 不开启 搜索的也是关键字不是标题
+    fulltext: true
     # 最多显示多少条搜索结果
     limit: 10
 

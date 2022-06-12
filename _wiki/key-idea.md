@@ -7,7 +7,7 @@ description: IDEA快捷键
 keywords: 快捷键, IDEA, Java
 ---
 
-> 在工作实践中IDEA快捷键总结~
+> 在工作实践中总结的IDEA快捷键~
 
 学会使用快捷键，高效的编出优美的代码^_^
 
