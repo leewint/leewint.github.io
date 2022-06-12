@@ -11,7 +11,7 @@ permalink: /wiki/
 
 > 记多少命令和快捷键会让脑袋爆炸呢？
 
-#### Notion Share
+##### Notion Share
 
 * [每年读完](https://leewint.notion.site/22cb813e41d44738bc827c147b44691f)
 * [读过的书（豆瓣自动备份）](https://leewint.notion.site/becb541367ad401282e3ce0e8228d674?v=2c9c24609dbc41df9f97d5a476b002d8)
@@ -39,7 +39,7 @@ permalink: /wiki/
 
 {% assign item_grouped = site.wiki | where_exp: 'item', 'item.title != "Wiki Template"' | group_by: 'cate1' | sort: 'name' %}
 {% for group in item_grouped %}
-#### {{ group.name }}
+##### {{ group.name }}
 {% assign cate_items = group.items | sort: 'title' %}
 {% assign item2_grouped = cate_items | group_by: 'cate2' | sort: 'name' %}
 {% for sub_group in item2_grouped %}
