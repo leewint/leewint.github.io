@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: Grammar - Markdown
-cate1:
+title: Markdown
+cate1: Grammar
 cate2:
 description: Markdown语法
 keywords: 快捷键, Markdown, MD, 语法
