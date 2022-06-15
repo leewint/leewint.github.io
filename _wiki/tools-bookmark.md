@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: 常用书签
-cate1: Tools
+title: Tools - 常用书签
+cate1:
 cate2:
 description: 常用书签
 keywords: 常用书签, 书签, 浏览器
