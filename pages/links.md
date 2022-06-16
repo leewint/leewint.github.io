@@ -18,7 +18,7 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-> 无名链接
+> 友情公司链接
 
 <ul>
 {% for link in site.data.links %}
