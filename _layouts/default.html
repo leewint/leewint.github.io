@@ -1,1 +1,161 @@
-404
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - 你迷路啦！</title>
+  <style>
+    body {
+      background: #fff;
+      color: #222;
+      font-family: 'Segoe UI', 'Arial', sans-serif;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .ufo {
+      position: relative;
+      width: 200px;
+      height: 120px;
+      margin-bottom: 20px;
+      animation: float 2.5s ease-in-out infinite;
+      z-index: 10;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+    .beam {
+      position: absolute;
+      left: 50%;
+      top: 60px;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 100px;
+      background: linear-gradient(180deg, rgba(255,235,59,0.25) 0%, rgba(255,235,59,0.05) 100%);
+      border-radius: 40px 40px 80px 80px;
+      z-index: 0;
+      filter: blur(1px);
+      animation: beam-flicker 1.2s infinite alternate;
+    }
+    @keyframes beam-flicker {
+      0% { opacity: 0.7; }
+      100% { opacity: 1; }
+    }
+    .ufo-body {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      width: 120px;
+      height: 40px;
+      background: #b0e0e6;
+      border-radius: 60px 60px 40px 40px;
+      box-shadow: 0 8px 24px 0 #b0e0e655;
+      z-index: 2;
+    }
+    .ufo-glass {
+      position: absolute;
+      left: 50%;
+      top: 10px;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 30px;
+      background: #e0ffff;
+      border-radius: 50% 50% 40% 40%;
+      z-index: 3;
+      opacity: 0.8;
+      border: 2px solid #fff;
+    }
+    .ufo-light {
+      position: absolute;
+      top: 35px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      z-index: 4;
+    }
+    .ufo-light span {
+      display: block;
+      width: 12px;
+      height: 12px;
+      background: #ffeb3b;
+      border-radius: 50%;
+      box-shadow: 0 0 8px 2px #ffeb3b;
+      opacity: 0.7;
+      animation: blink 1.5s infinite alternate;
+    }
+    .ufo-light span:nth-child(2) { animation-delay: 0.5s; }
+    .ufo-light span:nth-child(3) { animation-delay: 1s; }
+    @keyframes blink {
+      0% { opacity: 0.7; }
+      100% { opacity: 1; }
+    }
+    .num404 {
+      font-size: 7rem;
+      font-weight: bold;
+      letter-spacing: 0.2em;
+      margin: 0 0 10px 0;
+      text-shadow: 0 4px 24px #b0e0e655;
+      z-index: 10;
+      position: relative;
+      color: #43cea2;
+      background: linear-gradient(90deg, #43cea2 30%, #185a9d 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .desc {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+      color: #185a9d;
+      text-align: center;
+      z-index: 10;
+    }
+    .btn-home {
+      padding: 12px 32px;
+      font-size: 1.1rem;
+      background: #43cea2;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px #43cea255;
+      transition: background 0.2s;
+      z-index: 10;
+    }
+    .btn-home:hover {
+      background: #185a9d;
+    }
+    @media (max-width: 600px) {
+      .num404 { font-size: 4rem; }
+      .desc { font-size: 1rem; }
+      .ufo { width: 120px; height: 70px; }
+      .ufo-body { width: 70px; height: 24px; }
+      .ufo-glass { width: 36px; height: 18px; }
+      .beam { width: 40px; height: 60px; }
+      .ufo-light { width: 60px; }
+      .ufo-light span { width: 7px; height: 7px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="ufo">
+    <div class="beam"></div>
+    <div class="ufo-body"></div>
+    <div class="ufo-glass"></div>
+    <div class="ufo-light">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="num404">404</div>
+  <div class="desc">你发现了宇宙的边界！<br>这里什么都没有，快返回地球吧！</div>
+  <button class="btn-home" onclick="window.location.href='/'">返回首页</button>
+</body>
+</html>

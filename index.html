@@ -13,6 +13,7 @@
       align-items: center;
       background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
       font-family: 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif;
+      overflow: hidden;
     }
     .center-text {
       font-size: 3rem;
@@ -25,14 +26,99 @@
       font-weight: bold;
       text-shadow: 1px 2px 8px #fff, 0 1px 0 #ccc;
       transition: transform 0.2s;
+      position: relative;
+      cursor: pointer;
+      z-index: 2;
+      animation: shake 1.5s infinite linear alternate;
     }
     .center-text:hover {
-      transform: scale(1.05) rotate(-2deg);
+      transform: scale(1.08) rotate(-4deg);
       box-shadow: 0 8px 32px rgba(67,198,172,0.25);
+      background: rgba(255,255,255,0.9);
+    }
+    @keyframes shake {
+      0% { transform: translateY(0) rotate(-2deg); }
+      50% { transform: translateY(-10px) rotate(2deg); }
+      100% { transform: translateY(0) rotate(-2deg); }
+    }
+    .emoji {
+      font-size: 2.5rem;
+      position: absolute;
+      top: -2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: bounce 1.2s infinite alternate;
+      pointer-events: none;
+    }
+    @keyframes bounce {
+      0% { transform: translateX(-50%) scale(1); }
+      100% { transform: translateX(-50%) scale(1.2); }
+    }
+    .bubble {
+      position: absolute;
+      bottom: 0;
+      border-radius: 50%;
+      opacity: 0.5;
+      pointer-events: none;
+      z-index: 1;
+      animation: floatUp 6s linear infinite;
+    }
+    @keyframes floatUp {
+      0% { transform: translateY(0) scale(1); opacity: 0.5; }
+      80% { opacity: 0.7; }
+      100% { transform: translateY(-100vh) scale(1.3); opacity: 0; }
     }
   </style>
 </head>
 <body>
-  <div class="center-text">哈哈哈哈哈哈哈~</div>
+  <div class="center-text" id="funnyText">
+    <span class="emoji" id="emoji">😂</span>
+    哈哈哈哈哈哈哈~
+  </div>
+  <script>
+    // 气泡动画
+    function createBubble() {
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble';
+      const size = Math.random() * 40 + 20;
+      bubble.style.width = `${size}px`;
+      bubble.style.height = `${size}px`;
+      bubble.style.left = `${Math.random() * 100}%`;
+      bubble.style.background = `rgba(${200+Math.random()*55},${220+Math.random()*35},${180+Math.random()*75},0.3)`;
+      bubble.style.animationDuration = `${4 + Math.random() * 3}s`;
+      document.body.appendChild(bubble);
+      setTimeout(() => bubble.remove(), 7000);
+    }
+    setInterval(createBubble, 400);
+
+    // 表情切换
+    const emojis = ['😂','🤣','😹','😆','😜','🤪','😝','🥳','😏','😋'];
+    const emojiSpan = document.getElementById('emoji');
+    setInterval(() => {
+      emojiSpan.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+    }, 900);
+
+    // 点击互动：点击文本会弹出更多"哈"字和表情
+    const funnyText = document.getElementById('funnyText');
+    funnyText.addEventListener('click', () => {
+      const pop = document.createElement('div');
+      pop.textContent = '哈! ' + emojis[Math.floor(Math.random() * emojis.length)];
+      pop.style.position = 'absolute';
+      pop.style.left = (window.innerWidth/2 + (Math.random()-0.5)*200) + 'px';
+      pop.style.top = (window.innerHeight/2 + (Math.random()-0.5)*100) + 'px';
+      pop.style.fontSize = '2rem';
+      pop.style.color = '#43c6ac';
+      pop.style.fontWeight = 'bold';
+      pop.style.pointerEvents = 'none';
+      pop.style.opacity = 1;
+      pop.style.transition = 'all 1s cubic-bezier(.68,-0.55,.27,1.55)';
+      document.body.appendChild(pop);
+      setTimeout(() => {
+        pop.style.transform = 'translateY(-80px) scale(1.3)';
+        pop.style.opacity = 0;
+      }, 50);
+      setTimeout(() => pop.remove(), 1200);
+    });
+  </script>
 </body>
 </html>
